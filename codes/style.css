@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    overflow: hidden;
+    background-image: url('pic.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 40px; 
+}
+
+h4
+        {
+            font-size :25px;
+            color:#2466e2;
+        }
+header {
+    width: 100%;
+    background-color: #eeeeee; 
+    color: #2466e2b6; 
+    text-align: center; 
+    padding: 10px; 
+    box-sizing: border-box;
+    margin: 0;
+}
+
+p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.4em;
+}
+h2 {
+    text-align: center;
+    font-size: 35px;
+
+}
+
+nav {
+    width: 100%;
+    background-color: #2466e2;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    font-size: bold;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px; 
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a.login, nav a.signup {
+    padding: 10px 12px; 
+}
+
+nav a:hover {
+    background-color: white;
+    color: #2466e2;
+}
+
+section {
+    padding: 20px;
+   
+}
+
+
+footer {
+    background-color: #2466e2;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #2466e2;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6089d4;
+}
+.search-bar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.search-bar input {
+    padding: 12px;
+    width: 60%;
+    box-sizing: border-box;
+}
+
+
+.search-bar button {
+    background-color: #2466e2;
+    color: white;
+    padding: 13px 22px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.search-bar button:hover {
+    background-color:#6089d4;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #464444;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+
+
+.login-btn,
+.signup-btn {
+    background-color: #4CAF50; 
+    color: #fff; 
+    padding: 10px 15px;
+    text-decoration: none; 
+    border-radius: 5px; 
+    margin-left: 10px; 
+    display: inline-block;
+}
+
+
+.login-btn:hover,
+.signup-btn:hover {
+    background-color: #45a049; 
+    color: #f4f4f4;
+}
+
+
+
+
